@@ -1,11 +1,19 @@
 import React from "react";
 import "./App.css";
 import Description from "./Description";
+import Mdescription from "./Mdescription";
+
+import { Hidden } from "@material-ui/core";
 
 function App() {
   return (
     <div>
-      <Description />
+      <Hidden only={["xs"]}>
+        <Description />
+      </Hidden>
+      <Hidden only={["lg", "md", "sm", "xl"]}>
+        <Mdescription />
+      </Hidden>
     </div>
   );
 }
