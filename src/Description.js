@@ -5,7 +5,6 @@ class Description extends Component {
     return (
       <div className="description">
         <img className="description-logo" src="logo.svg" />
-
         <div className="description-header">Flatfile</div>
         <div className="description-subheader">Denver, Colorado</div>
         <div className="description-body">
@@ -16,7 +15,7 @@ class Description extends Component {
           from its massive user base to improve the import process over time
           without any additional manual effort
         </div>
-        <div className="tag-container">
+        {/*  <div className="tag-container">
           <div style={{ fontSize: 30, fontWeight: 600, marginBottom: 20 }}>
             Tags:
           </div>
@@ -45,6 +44,7 @@ class Description extends Component {
             View Openings
           </div>
         </div>
+ */}{" "}
       </div>
     );
   }
