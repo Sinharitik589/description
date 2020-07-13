@@ -40,10 +40,10 @@ class Mdescription extends Component {
             <div className="company-description">
               <div
                 style={{
-                  fontSize: 24,
+                  fontSize: 32,
                   fontWeight: 600,
                   color: "white",
-                  marginBottom: 4,
+                  marginBottom: 3,
                 }}
               >
                 Flatfile
