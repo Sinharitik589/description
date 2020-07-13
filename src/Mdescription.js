@@ -103,7 +103,7 @@ class Mdescription extends Component {
           from its massive user base to improve the import process over time
           without any additional manual effort
         </div>
-        <div className="tag-heading">Tags:</div>
+
         <div className="tags">
           <div className="chip-wrapper">
             <div className="tag-chip">SDL</div>

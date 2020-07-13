@@ -15,6 +15,39 @@ class Description extends Component {
           from its massive user base to improve the import process over time
           without any additional manual effort
         </div>
+        <div className="tags">
+          <div className="chip-wrapper">
+            <div className="tag-chip">SDL</div>
+          </div>
+          <div className="chip-wrapper">
+            <div className="tag-chip">Mobile Application</div>
+          </div>
+          <div className="chip-wrapper">
+            <div className="tag-chip">Docker</div>
+          </div>
+          <div className="chip-wrapper">
+            <div className="tag-chip">Open-Source Development</div>
+          </div>
+        </div>
+
+        <div className="des-button-wrappers">
+          <div className="mobile-description-button">
+            <div className="button-logo">
+              <img src="mobile/download.png" />
+            </div>
+            <div className="button-value" style={{ flex: 3 }}>
+              Get Employee Refferal
+            </div>
+          </div>
+          <div className="mobile-description-button-1">
+            <div className="button-logo">
+              <img src="mobile/download1.png" />
+            </div>
+            <div className="button-value" style={{ flex: 3 }}>
+              View Openings
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
