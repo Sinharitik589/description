@@ -162,14 +162,14 @@ body {
     "Segoe UI Symbol";
   line-height: 1.5;
 
-  font-weight: 400;
+  font-weight: 405;
 
   margin: 40px 5% 10px 5%;
   text-align: center;
   color: #212529;
-  width: 94%;
+  width: 90%;
   font-size: 1.2rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: -0.02rem;
 }
 
 .button-logo {
