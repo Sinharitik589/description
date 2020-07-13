@@ -57,12 +57,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  margin: 25px 5% 35px 5%;
+  margin: 25px 5% 0px 5%;
 }
 
 .tag-chip {
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: #dfe9fb;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -130,10 +130,10 @@ body {
   display: flex;
   cursor: pointer;
   margin: 0 5% 0 5%;
-  background-color: #4f51c0;
+  background-color: white;
   box-shadow: 0 8px 16px rgba(53, 37, 211, 0.24);
   margin-bottom: 15px;
-  color: white;
+  color: black;
 }
 
 .mobile-description-button-1 {
@@ -143,9 +143,9 @@ body {
   display: flex;
   cursor: pointer;
   margin: 0 5% 0 5%;
-  background-color: #4f51c0;
+  background-color: white;
   box-shadow: 0 8px 16px rgba(53, 37, 211, 0.24);
-  color: white;
+  color: black;
 }
 
 .descriptions-logo {
@@ -198,10 +198,10 @@ body {
   flex-direction: column;
 }
 .des-button-wrapper {
-  position: relative;
-  margin-bottom: 35px;
-  margin-top: 25px;
+  position: absolute;
   display: flex;
+  bottom: 25px;
+  width: 100%;
   flex-direction: column;
 }
 .tag-heading {
@@ -234,4 +234,20 @@ body {
   position: absolute;
   top: 30px;
   left: 20px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  max-height: 300px;
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }

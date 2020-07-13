@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Mdescription extends Component {
   render() {
     return (
-      <div style={{ display: "flex", flexDirection: "column" }}>
+      <div className="body">
         <div className="header">
           <div className="mainellipse">
             <svg
@@ -116,6 +116,26 @@ class Mdescription extends Component {
           </div>
           <div className="chip-wrapper">
             <div className="tag-chip">Open-Source Development</div>
+          </div>
+        </div>
+
+        <div className="footer">
+          <div
+            className="footer_svg
+          "
+          >
+            <svg
+              width="415"
+              height="339"
+              viewBox="0 0 415 339"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.45654 156.057V339H415V0C415 79.0221 370.289 80.6586 339.93 80.6586H79.9429C8.84677 80.6586 -2.6714 130.924 0.45654 156.057Z"
+                fill="#4F51C0"
+              />
+            </svg>
           </div>
         </div>
         <div className="des-button-wrapper">
