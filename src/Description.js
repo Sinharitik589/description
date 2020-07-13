@@ -15,36 +15,6 @@ class Description extends Component {
           from its massive user base to improve the import process over time
           without any additional manual effort
         </div>
-        {/*  <div className="tag-container">
-          <div style={{ fontSize: 30, fontWeight: 600, marginBottom: 20 }}>
-            Tags:
-          </div>
-
-          <div className="tags">
-            <div className="chip-wrapper">
-              <div className="tag-chip">SDL</div>
-            </div>
-            <div className="chip-wrapper">
-              <div className="tag-chip">Mobile Application</div>
-            </div>
-            <div className="chip-wrapper">
-              <div className="tag-chip">Docker</div>
-            </div>
-            <div className="chip-wrapper">
-              <div className="tag-chip">Open-Source Development</div>
-            </div>
-          </div>
-        </div>
-        <div className="button-container">
-          <div className="description-button">Get Employee Refferal</div>
-          <div
-            className="description-button"
-            style={{ backgroundColor: "#07b407" }}
-          >
-            View Openings
-          </div>
-        </div>
- */}{" "}
       </div>
     );
   }
