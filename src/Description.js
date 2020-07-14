@@ -17,26 +17,26 @@ class Description extends Component {
         </div>
         <div className="tags" style={{ marginTop: 50 }}>
           <div className="chip-wrapper">
-            <div className="tag-chip">SDL</div>
+            <div className="tag-chips">SDL</div>
           </div>
           <div className="chip-wrapper">
-            <div className="tag-chip">Mobile Application</div>
+            <div className="tag-chips">Mobile Application</div>
           </div>
           <div className="chip-wrapper">
-            <div className="tag-chip">Docker</div>
+            <div className="tag-chips">Docker</div>
           </div>
 
           <div className="chip-wrapper">
-            <div className="tag-chip">Mobile Application</div>
+            <div className="tag-chips">Mobile Application</div>
           </div>
           <div className="chip-wrapper">
-            <div className="tag-chip">Docker</div>
+            <div className="tag-chips">Docker</div>
           </div>
           <div className="chip-wrapper">
-            <div className="tag-chip">SDL</div>
+            <div className="tag-chips">SDL</div>
           </div>
           <div className="chip-wrapper">
-            <div className="tag-chip">Open-Source Development</div>
+            <div className="tag-chips">Artificial Intelligence</div>
           </div>
         </div>
 
