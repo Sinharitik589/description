@@ -15,7 +15,7 @@ class Description extends Component {
           from its massive user base to improve the import process over time
           without any additional manual effort
         </div>
-        <div className="tags" style={{ marginTop: 50 }}>
+        <div className="tags">
           <div className="chip-wrapper">
             <div className="tag-chips">SDL</div>
           </div>

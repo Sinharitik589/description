@@ -42,7 +42,7 @@ body {
 }
 .description-body {
   margin-top: 38px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   text-align: center;
   width: 100%;
   font-family: "Roboto", sans-serif;
@@ -62,9 +62,9 @@ body {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 60%;
   justify-content: space-evenly;
-  margin: 50px 15% 20px 15%;
+  margin: 5px 20% 20px 20%;
 }
 
 .tag-chip {
@@ -80,7 +80,6 @@ body {
   border-radius: 20px;
   background-color: #f6f6f6;
   margin-bottom: 15px;
-  margin-right: 15px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 
