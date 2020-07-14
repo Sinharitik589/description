@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import $ from "jquery";
 class Description extends Component {
   render() {
     return (
@@ -40,7 +41,7 @@ class Description extends Component {
         </div>
 
         <div className="des-button-wrappers">
-          <div className="mobile-description-button">
+          {/*  <div className="mobile-description-button">
             <div className="button-logo">
               <img src="mobile/download.png" />
             </div>
@@ -55,6 +56,10 @@ class Description extends Component {
             <div className="button-value" style={{ flex: 3 }}>
               View Openings
             </div>
+          </div> */}
+          <div className="description-button">Get Employee Refferal</div>
+          <div className="description-button description-button1">
+            View Openings
           </div>
         </div>
       </div>

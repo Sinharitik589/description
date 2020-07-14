@@ -104,7 +104,7 @@ class Mdescription extends Component {
           without any additional manual effort
         </div>
 
-        <div className="tags">
+        <div className="tag">
           <div className="chip-wrapper">
             <div className="tag-chip">SDL</div>
           </div>
@@ -120,7 +120,7 @@ class Mdescription extends Component {
         </div>
 
         <div className="des-button-wrapper">
-          <div className="mobile-description-button">
+          {/* <div className="mobile-description-button">
             <div className="button-logo">
               <img src="mobile/download.png" />
             </div>
@@ -135,6 +135,10 @@ class Mdescription extends Component {
             <div className="button-value" style={{ flex: 3 }}>
               View Openings
             </div>
+          </div> */}
+          <div className="description-button">Get Employee Refferal</div>
+          <div className="description-button description-button1">
+            View Openings
           </div>
         </div>
       </div>
