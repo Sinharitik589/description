@@ -62,9 +62,9 @@ body {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: 64%;
   justify-content: space-evenly;
-  margin: 5px 20% 20px 20%;
+  margin: 5px 18% 20px 18%;
 }
 
 .tag-chip {
@@ -79,7 +79,7 @@ body {
   padding: 10px;
   border-radius: 20px;
   background-color: #f6f6f6;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 
