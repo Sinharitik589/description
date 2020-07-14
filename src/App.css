@@ -47,10 +47,9 @@ body {
   width: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 33px;
   font-weight: 400;
 
-  letter-spacing: -0.05rem;
   color: #212529;
 }
 .tag-container {
