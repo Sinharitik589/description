@@ -62,9 +62,9 @@ body {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
-  justify-content: baseline;
-  margin: 12px 15% 20px 15%;
+  width: 60%;
+  justify-content: center;
+  margin: 12px 20% 20px 20%;
 }
 
 .tag-chip {
@@ -82,7 +82,7 @@ body {
   margin-bottom: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  margin-right: 5px;
+  margin-right: 2px;
 }
 .button-container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
