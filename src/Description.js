@@ -25,6 +25,16 @@ class Description extends Component {
           <div className="chip-wrapper">
             <div className="tag-chip">Docker</div>
           </div>
+
+          <div className="chip-wrapper">
+            <div className="tag-chip">Mobile Application</div>
+          </div>
+          <div className="chip-wrapper">
+            <div className="tag-chip">Docker</div>
+          </div>
+          <div className="chip-wrapper">
+            <div className="tag-chip">SDL</div>
+          </div>
           <div className="chip-wrapper">
             <div className="tag-chip">Open-Source Development</div>
           </div>
