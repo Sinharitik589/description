@@ -82,7 +82,7 @@ body {
   margin-bottom: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  margin-right: 0px;
+  margin-right: 5px;
 }
 .button-container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
