@@ -58,9 +58,6 @@ class Description extends Component {
             </div>
           </div> */}
           <div className="description-button">Get Employee Refferal</div>
-          <div className="description-button description-button1">
-            View Openings
-          </div>
         </div>
       </div>
     );
