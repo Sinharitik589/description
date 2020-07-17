@@ -140,7 +140,7 @@ body {
   border-radius: 19px;
   top: 155px;
   width: 84%;
-  margin: 0 10% 0 2%;
+  margin: 0 10% 0 -1px;
   height: 120px;
   background-color: #4f51c0;
 }
