@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/* import React, { Component } from "react";
 import $ from "jquery";
 class Description extends Component {
   render() {
@@ -41,24 +41,53 @@ class Description extends Component {
         </div>
 
         <div className="des-button-wrappers">
-          {/*  <div className="mobile-description-button">
-            <div className="button-logo">
-              <img src="mobile/download.png" />
-            </div>
-            <div className="button-value" style={{ flex: 3 }}>
-              Get Employee Refferal
-            </div>
-          </div>
-          <div className="mobile-description-button-1">
-            <div className="button-logo">
-              <img src="mobile/download1.png" />
-            </div>
-            <div className="button-value" style={{ flex: 3 }}>
-              View Openings
-            </div>
-          </div> */}
+         
           <div className="description-button">Get Employee Refferal</div>
         </div>
+      </div>
+    );
+  }
+}
+
+export default Description;
+ */
+import React, { Component } from "react";
+import { Divider, Typography } from "@material-ui/core";
+
+class Description extends Component {
+  render() {
+    return (
+      <div>
+        <Typography
+          variant="h4"
+          gutterBottom
+          style={{ fontWeight: "lighter", marginBottom: 30 }}
+        >
+          Nigeria
+        </Typography>
+        <Divider />
+        <p className="main">
+          Kobo360, is a privately owned, pan-african technology company
+          disrupting and leading African third-party logistics industry.
+          <br />
+          <br />
+          Through an all-in-one robust platform that instantly connects cargo
+          owners to trucks and drivers, Kobo uses big data and agile technology
+          to reduce friction and scale efficiency in the African logistics
+          ecosystem.
+          <br />
+          <br /> The company has designed effective solutions for the challenges
+          in the logistics space by connecting asset owners in the industry with
+          the MSMEs that need their services.
+          <br />
+          <br /> Kobo is also preparing to enter the agro-trading space by
+          developing a marketplace that connects farmers with buyers all over
+          the world. The marketplace will effectively eliminate the high cost of
+          middlemen for smallholder farmers and significantly increase their
+          profits.
+          <br />
+          <br />
+        </p>
       </div>
     );
   }
