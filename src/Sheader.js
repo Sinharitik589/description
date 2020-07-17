@@ -10,7 +10,7 @@ class Sheader extends Component {
           <img src="mobile/Kobo360.png" alt="logo" style={{ height: 150 }} />
         </div>
         <div className="header">
-          <div className="heading">Kobo 360</div>
+          <div className="heading"> Flatfile</div>
         </div>
       </div>
     );

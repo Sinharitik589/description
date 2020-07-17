@@ -53,7 +53,7 @@ export default Description;
  */
 import React, { Component } from "react";
 import { Divider, Typography } from "@material-ui/core";
-
+import Chip from "./Chip";
 class Description extends Component {
   render() {
     return (
@@ -63,30 +63,24 @@ class Description extends Component {
           gutterBottom
           style={{ fontWeight: "lighter", marginBottom: 30 }}
         >
-          Nigeria
+          Denver, Colorado
         </Typography>
         <Divider />
         <p className="main">
-          Kobo360, is a privately owned, pan-african technology company
-          disrupting and leading African third-party logistics industry.
+          Flatfile is the developer of a database software designed to import,
+          map, and normalize customer data. Flatfile was built to transform the
+          data import experience from painful to productive. As the world’s
+          first intuitive data importer, Flatfile leverages aggregate learnings
+          from its massive user base to improve the import process over time
+          without any additional manual effort
           <br />
           <br />
-          Through an all-in-one robust platform that instantly connects cargo
-          owners to trucks and drivers, Kobo uses big data and agile technology
-          to reduce friction and scale efficiency in the African logistics
-          ecosystem.
-          <br />
-          <br /> The company has designed effective solutions for the challenges
-          in the logistics space by connecting asset owners in the industry with
-          the MSMEs that need their services.
-          <br />
-          <br /> Kobo is also preparing to enter the agro-trading space by
-          developing a marketplace that connects farmers with buyers all over
-          the world. The marketplace will effectively eliminate the high cost of
-          middlemen for smallholder farmers and significantly increase their
-          profits.
-          <br />
-          <br />
+          <div style={{ display: "flex", flexWrap: "wrap", marginTop: 35 }}>
+            <Chip label="Sdl" />
+            <Chip label="Mobile Application" />
+            <Chip label="Docker" />
+            <Chip label="Open Source Development" />
+          </div>
         </p>
       </div>
     );
